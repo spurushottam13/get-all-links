@@ -1,9 +1,8 @@
 /**
  *  TEST SCRIPT
- */
+*/
 
 const {Spider} = require('./index')
-console.log(Spider)
 const getAllLinks  = new Spider({
     depth: 3,
     url : "https://www.medanta.org",
@@ -12,4 +11,4 @@ const getAllLinks  = new Spider({
     onFinsh : (data) => console.log(data.length) 
 })
 
-getAllLinks.crawl().then( _ => console.log("Done", _))
+getAllLinks.crawl()
