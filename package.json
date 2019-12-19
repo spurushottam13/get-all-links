@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "spurushottam13",
+  "author": "https://github.com/spurushottam13",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spurushottam13/get-all-links"
+  },
   "keywords": [
     "find",
     "link",
@@ -22,7 +26,7 @@
     "utility",
     "helper"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "jsdom": "^15.2.1",
     "request": "^2.88.0"
