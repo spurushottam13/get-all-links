@@ -1,6 +1,6 @@
 {
   "name": "get-all-links",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A node crawler that return all links/href from website",
   "main": "index.js",
   "scripts": {

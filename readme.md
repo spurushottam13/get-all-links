@@ -4,10 +4,10 @@
 ### Example:
 
 ```javascript
-const {Spider} = require('./index')
+const {Spider} = require('get-all-links')
 const getAllLinks  = new Spider({
     depth: 3,
-    url : "https://www.medanta.org",
+    url : "http://example.com/",
     onSuccess : console.log,
     onFailure : console.log,
     onFinsh : (data) => console.log(data) 
